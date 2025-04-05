@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | Black & White Luxury</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    header {
+      background-color: #111;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 1px solid #444;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 300;
+      letter-spacing: 2px;
+      text-shadow: 0 0 10px rgba(255,255,255,0.2);
+    }
+
+    main {
+      padding: 4rem 2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 300;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-bottom: 0.5rem;
+      font-weight: 300;
+    }
+
+    input, textarea {
+      padding: 0.8rem;
+      margin-bottom: 1.5rem;
+      border: 1px solid #444;
+      border-radius: 8px;
+      background-color: #111;
+      color: #fff;
+      font-size: 1rem;
+    }
+
+    input::placeholder, textarea::placeholder {
+      color: #777;
+    }
+
+    button {
+      padding: 0.9rem;
+      background-color: #fff;
+      color: #000;
+      border: none;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #ccc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #111;
+      color: #777;
+      font-size: 0.9rem;
+      border-top: 1px solid #222;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact Black & White Luxury</h1>
+  </header>
+
+  <main>
+    <h2>We'd love to hear from you</h2>
+    <form action="#" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+
+  <footer>
+    &copy; 2025 Black & White Luxury. All rights reserved.
+  </footer>
+</body>
+</html>
